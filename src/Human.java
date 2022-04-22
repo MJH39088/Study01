@@ -17,6 +17,6 @@ public class Human {
         boolean isApple = true;
         System.out.print(isApple);
 
-        // if = 만약.. ~라면...
+        // if = 만약.. ~라면....
     }
 }
