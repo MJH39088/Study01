@@ -48,7 +48,7 @@ public class Human {
                 break;
         }
 
-        System.out.println("switch문 끝!");
+        System.out.println("switch문 끝!!");
 
 
     }
