@@ -20,7 +20,7 @@ public class Human {
         System.out.println(isApple);
 
 
-        aInt = 14;
+        aInt = 10;
         // if = 만약.. ~라면... 조건문, ==은 ~이 맞으면, !=은 ~가 아니면
         if (aInt == 10) { // 한 줄만 실행할 것이라면 중괄호 필요없음.
             System.out.println("10이 맞습니다!");
@@ -34,7 +34,8 @@ public class Human {
 
         // if문을 좀 더 보기 쉽게 표현하기 위해 나온 switch 문
         switch (aInt) {
-            case 10: // break를 쓰지 않을 시 바로 다음 케이스로 넘어감.
+            case 10: // break를 쓰지 않을 시 조건이 달라도 바로 다음 케이스로 넘어감.
+                System.out.println("10입니다.");
             case 11:
                 System.out.println("10 또는 11이 맞습니다!");
                 break;
