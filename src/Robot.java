@@ -1,5 +1,9 @@
 public class Robot { // 클래스는 설계도 같은 것. 인텔리제이에선 활용이 되지 않으면 회색으로 보인다.
 
+    // 생성자를 따로 구현하지 않으면 프로그램이 자동으로 default  생성자를 만든다..!
+//    public Robot() {
+//
+//    }
 
     // 자바에서는 객체 지향 프로그래밍 (OOP - Object Oriented Programming)
     // 객체 (상태, 행동)
